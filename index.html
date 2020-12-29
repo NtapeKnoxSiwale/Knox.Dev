@@ -15,6 +15,7 @@
                 border-style: solid;
                 border-radius: 50%;
                 width: 200px;
+                
             }
             body {
                 
@@ -28,8 +29,8 @@
                 padding: 0.5em;
                 text-align: center;
             }
-            nav{
-                
+            nav {
+                background-color: hsl(0, 0%, 15%);
             }
             nav ul {
                 margin: 0px;
@@ -44,12 +45,19 @@
                 text-decoration: none;
                 color: inherit;
             }
+            a:hover{
+                color: green;
+                transform: scale(1.1);
+            }
+            #nav-header{
+                text-align: center;
+            }
         </style>
     </head>
 
     <body>
         <header>
-            <h1>Knox The Developer</h1>
+            <h1 id="nav-header">Knox The Developer</h1>
             <nav>
                 <ul>
                     <li><a href="#">About</a></li>
@@ -65,7 +73,7 @@
         <hr>
         <div>
             <h1>Welcome</h1>
-            <p>Hello, am currently working on my website. But feel free to look around at my social accounts.</p>
+            <p>Hello, am currently working on my website. But feel free to look around at my social media accounts.</p>
             <p id="social">This is
                 <a href="https://instagram.com/knox.dev">my Instagram</a>,
                 <a href="https://twitter.com/Ntape_K_Siwale">my Twitter</a> and
